@@ -1,0 +1,116 @@
+body{
+	background-image: url(../images/juice3.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: black;
+	font-family: sans-serif verdana;
+
+}
+.logo{
+	width: 75px;
+	height:75px;
+
+}
+
+header{
+	background-color: green;
+	padding: 5px;
+	margin-bottom: 30px;
+	margin-top: -10px;
+	margin-right: -10px;
+	margin-left:  -10px;
+}
+
+nav{	
+	float: right;
+}
+
+ul {
+	list-style-type: none: 
+}
+
+.siteName, .siteLogo, nav, ul, li, figure, figcaption, footer p {
+	display: inline-block;
+}
+
+li a, .siteLogo a {
+	text-decoration: none;
+	color: white;
+}
+
+li a {
+	background-color: black;
+	padding: 15px;
+	border-radius: 5px;
+}
+footer{
+	background-color: green;
+	padding 10px;
+	margin-left: -10px;
+	margin-right: -10px; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;	
+	
+}
+
+li a:hover {
+	background-color: grey;
+}
+
+li a:active {
+	background-color: white;
+	color: black;
+}
+
+tr:nth-child(even) {
+	background-color: grey;
+}
+
+article, .article {
+	color: black;
+	background-color: lightgrey;
+	opacity: 0.8;
+	filter: alpha(opacity=60); /* for IEB  and earlier */
+}
+
+footer img{
+	width: 25px;
+	height: 25px;
+
+}
+s
+/*table {
+	border-collapse: collapse;
+}*/
+
+/***************** Grid View Here *********************/
+
+* {
+    box-sizing: border-box;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
